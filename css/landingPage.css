@@ -26,7 +26,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -63,13 +63,13 @@ header {
     color: white;
     text-decoration: none;
     background-color: rgb(197, 125, 201);
-    padding: 15px;
+    padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 6px;
     font-size: 22px;
     text-align: center;
-    height: 60px;
+    height: 50px;
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -81,69 +81,68 @@ main {
     height: fit-content;
 }
 
-#section1 {
-    width: auto;
-    position: relative;
-}
-
-#section1 img {
+main img {
     top: 0;
     left: 0;
     opacity: 0.9;
     width: 100%;
     max-width: 1920px;
-    position: absolute;
+}
+
+#section1 {
+    width: auto;
 }
 
 #section1 h1 {
-    color: aliceblue;
+    color: rgb(142, 67, 146);
     font-size: 30px;
 }
 
 .text {
-    top: 100px;
+    text-align: center;
+    text-shadow: 8px 2px 16px white;
+    top: 420px;
     right: 50px;
     position: absolute;
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 .info {
-    position: absolute;
     display: flex;
     flex-wrap: nowrap;
-    width: 500px;
-    top: 40%;
-    left: 52%;
+    max-width: 1920px;
+    background-color: white;
 }
 
 #about-us {
-    margin: 50px;
-    padding: 68px;
+    margin: 80px;
+    margin-top: 50px;
+    padding: 73px;
     background-repeat: no-repeat;
-    background-color: white;
-    background-image: url(../images/aboutUs.png);
-    border-radius: 66px;
+    background-color: rgb(197, 125, 201);
+    background-image: url(../images/about_us.png);
+    border-radius: 71px;
     background-position: center;
 }
 
 #guide {
-    margin: 50px;
-    padding: 68px;
+    margin: 80px;
+    margin-top: 50px;
+    padding: 73px;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: rgb(197, 125, 201);
     background-image: url(../images/guide.png);
-    border-radius: 66px;
+    border-radius: 71px;
     background-position: center;
 }
 
 #resources {
-    margin: 50px;
-    padding: 68px;
+    margin: 80px;
+    margin-top: 50px;
+    padding: 73px;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: rgb(197, 125, 201);
     background-image: url(../images/resources.png);
-    border-radius: 66px;
+    border-radius: 71px;
     background-position: center;
 }
 
