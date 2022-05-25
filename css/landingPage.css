@@ -14,6 +14,9 @@ img {
     max-width: 1920px;
 }
 
+
+/*header*/
+
 header {
     box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
     background-color: white;
@@ -71,6 +74,9 @@ header {
     margin-left: 20px;
 }
 
+
+/* main */
+
 main {
     height: fit-content;
 }
@@ -81,12 +87,12 @@ main {
 }
 
 #section1 img {
-    position: absolute;
     top: 0;
     left: 0;
     opacity: 0.9;
     width: 100%;
     max-width: 1920px;
+    position: absolute;
 }
 
 #section1 h1 {
@@ -101,6 +107,48 @@ main {
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
 }
+
+.info {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500px;
+    top: 40%;
+    left: 52%;
+}
+
+#about-us {
+    margin: 50px;
+    padding: 68px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(../images/aboutUs.png);
+    border-radius: 66px;
+    background-position: center;
+}
+
+#guide {
+    margin: 50px;
+    padding: 68px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(../images/guide.png);
+    border-radius: 66px;
+    background-position: center;
+}
+
+#resources {
+    margin: 50px;
+    padding: 68px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(../images/resources.png);
+    border-radius: 66px;
+    background-position: center;
+}
+
+
+/*footer*/
 
 footer {
     margin-top: calc(69% + 28px);
