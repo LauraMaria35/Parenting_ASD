@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+#container {
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+}
+
+header {
+    box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
+    background-color: white;
+}
+
+#header1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#authentication {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#logo img {
+    margin-left: 39px;
+}
+
+#logo h2 {
+    color: rgb(142, 67, 146);
+}
+
+#logIn {
+    display: block;
+    color: rgb(197, 125, 201);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+#signUp {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(197, 125, 201);
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+    font-size: 22px;
+    text-align: center;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+main {
+    height: fit-content;
+}
+
+#section1 {
+    width: auto;
+    position: relative;
+}
+
+#section1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    width: 100%;
+    max-width: 1920px;
+}
+
+#section1 h1 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.text {
+    top: 100px;
+    right: 50px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+footer {
+    margin-top: calc(69% + 28px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+}
+
+footer p {
+    color: rgb(142, 67, 146);
+    font-size: 16px;
+    padding-bottom: 13px;
+    font-family: monoton, cursive;
+}
+
+#copyRight {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}

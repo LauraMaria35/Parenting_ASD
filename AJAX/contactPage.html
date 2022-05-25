@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <script src="../js_lib/clearUserMsg.js"></script>
+    <script src="../js_lib/contactForm.js"></script>
+
+    <script src="../js_lib/copyright.js"></script>
+
+    <link rel="stylesheet" href="../css/honden.css">
+
+    <title>Honden - Beter voorbeeld</title>
+</head>
+
+<body>
+    <div id='container'>
+        <header id='home'>
+            <img src='../images/honden/logo.jpg' alt='Honden' height="100%">
+            <p>Beter voorbeeld</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href='#home'>home</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <article>
+                    <img src='../images/honden/57509421-groep-van-verschillende-rassen-honden-zitten-voor-ge%C3%AFsoleerd-op-wit.jpg' width=100% alt='Honden'>
+                </article>
+
+                <article>
+                    <img src='../images/honden/a33be149af054488c45f26758b2763e9.jpg' width=100% alt='Honden'>
+                    <a href=#home>&lt;Home&gt;</a>
+                </article>
+
+                <article>
+                    <img src='../images/honden/groep-honden-het-zitten-25101351.jpg' width=100% alt='Honden'>
+                    <a href=#home>&lt;Home&gt;</a>
+                </article>
+            </section>
+
+
+            <section id=contact>
+
+                <h2>Stuur ons een mail</h2>
+                <h5>Wil je meer informatie, wij helpen je graag</h5>
+
+                <form id="mailForm">
+                    <fieldset>
+                        <div class="mail">
+                            <label class="name"></label>
+                            <input type="text" placeholder="Uw Naam" id="naam" size=50 onfocus="clearUserMsg()">
+                            <br><br>
+                            <label class="email"></label>
+                            <input type="email" placeholder="Uw email" id="mail" size=50 onfocus="clearUserMsg()">
+
+                            <br><br>
+                            <div class="text-right">
+                                <input type="button" value="verstuur" onClick="contactForm()">
+                            </div>
+                            <br><br><br><br>
+                            <div id='userMSG'>
+
+                            </div>
+                        </div>
+                        <div class='mail'>
+                            <textarea id="opm" rows="20" cols="50" placeholder="Uw vraag/opmerking" onfocus="clearUserMsg()"></textarea>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class='clearfix'></div>
+            </section>
+        </main>
+        <footer>
+            <script language="javascript">
+                document.write(copyRight("webontwikkeling.info"));
+            </script>
+        </footer>
+    </div>
+</body>
+
+</html>

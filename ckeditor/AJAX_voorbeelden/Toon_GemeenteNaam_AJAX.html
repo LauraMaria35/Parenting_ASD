@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+
+
+  <script>
+    function toonGemeenteNaam(postcode) {
+      xmlhttp = new XMLHttpRequest();
+
+      xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          document.getElementById("naam").value = xmlhttp.responseText;
+        }
+      }
+      xmlhttp.open("GET", "gemeenteNaam.php?p=" + postcode, true);
+      xmlhttp.send();
+    }
+  </script>
+
+
+  <title>Toon gemeente naam</title>
+</head>
+
+<body>
+  <form>
+    <label>Postcode & gemeente</label>
+    <br><br><br>
+    <input id='code' type='text' onblur='toonGemeenteNaam(this.value)' placeholder='postcode'>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <input id='naam' type='text' placeholder='gemeente'>
+    <br><br><br><br>
+    <input type=reset value=Reset>
+  </form>
+</body></html>

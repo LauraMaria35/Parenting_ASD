@@ -1,0 +1,14 @@
+"20-05-2022 10:43:46","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 1653054226
+                         WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
+"20-05-2022 10:45:08","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 1653054308
+                         WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
+"20-05-2022 10:45:22","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 1653054322
+                         WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
+"20-05-2022 11:02:46","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 1653055366
+                         WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
+"20-05-2022 11:03:58","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 1653055438
+                         WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
+"20-05-2022 11:06:38","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 1653055598
+                         WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
+"24-05-2022 08:07:35","SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)","C:\wamp\www\Parenting_ASD\connections\pdo.inc.php",26
+"25-05-2022 14:09:13","SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)","C:\wamp\www\Parenting_ASD\connections\pdo.inc.php",26

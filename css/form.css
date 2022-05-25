@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+label{
+	clear:both;
+	float:left;
+	margin-right: 0.5em;
+	width: 100px;
+}
+
+input{
+	float:left;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+}
+
+
+#gender, #soort, #land{
+	float:left;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+}
+
+#invoer label { 
+	clear:both;
+	width : 45%;
+	float:left;
+	margin:0.3em 0 0 0;
+	font-size:1.5em;
+	font-weight:bold;}
+
+#invoer input { 
+	float:left;
+	margin:0.3em 0 0 1em;
+}
+
+#submit{
+	clear:both;
+	margin:0;
+}
+
+

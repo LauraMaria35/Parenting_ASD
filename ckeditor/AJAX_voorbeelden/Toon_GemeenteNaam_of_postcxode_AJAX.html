@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+
+
+	<script>
+		function toonGemeente(postcode) {
+			xmlhttp = new XMLHttpRequest();
+			setTimeout(function() {xhttp.abort()  },40000);
+			xmlhttp.onreadystatechange = function() {
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+					document.getElementById("naam").value = xmlhttp.responseText;
+				}
+			}
+			xmlhttp.open("GET", "gemeenteNaam.php?p=" + postcode, true);
+			xmlhttp.send();
+		}
+
+		
+		
+function toonPostCode(naam)
+{
+  xmlhttp=new XMLHttpRequest();
+  
+  setTimeout(function() {xhttp.abort()  },40000);
+  
+  xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+  document.getElementById("code").value=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","gemeenteCode.php?n="+naam,true);
+xmlhttp.send();
+}
+	</script>
+
+
+	<title>Toon gemeente naam</title>
+</head>
+
+<body>
+	<h1>Gemeente</h1>
+<form> 
+<label>Postcode & gemeente</label>
+<br><br><br>
+ <input id='code' type= 'text'
+onblur="toonGemeente(this.value)" placeholder='postcode'> 
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input id='naam' type= 'text' 
+onblur="toonPostCode(this.value)" placeholder='gemeente'> 
+<br><br><br><br>
+ <input type=reset value=Reset>
+</form>
+</body>
+
+</html>
