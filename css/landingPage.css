@@ -22,6 +22,10 @@ header {
     background-color: white;
 }
 
+#header1 a {
+    text-decoration: none;
+}
+
 #header1 {
     display: flex;
     flex-wrap: nowrap;
@@ -47,7 +51,7 @@ header {
 
 #logIn {
     display: block;
-    color: rgb(197, 125, 201);
+    color: rgb(142, 67, 146);
     text-decoration: none;
     padding: 15px;
     font-size: 22px;
@@ -94,7 +98,7 @@ main img {
 }
 
 #section1 h1 {
-    color: rgb(142, 67, 146);
+    color: rgb(114, 50, 117);
     font-size: 30px;
 }
 
@@ -106,16 +110,24 @@ main img {
     position: absolute;
 }
 
+#section2 {
+    width: auto;
+}
+
 .info {
+    width: auto;
     display: flex;
     flex-wrap: nowrap;
-    max-width: 1920px;
     background-color: white;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 #about-us {
     margin: 80px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     padding: 73px;
     background-repeat: no-repeat;
     background-color: rgb(197, 125, 201);
@@ -126,7 +138,8 @@ main img {
 
 #guide {
     margin: 80px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     padding: 73px;
     background-repeat: no-repeat;
     background-color: rgb(197, 125, 201);
@@ -137,7 +150,8 @@ main img {
 
 #resources {
     margin: 80px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     padding: 73px;
     background-repeat: no-repeat;
     background-color: rgb(197, 125, 201);
@@ -146,25 +160,44 @@ main img {
     background-position: center;
 }
 
+.titleInfo {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 255px;
+    padding-right: 293px;
+    color: rgb(114, 50, 117);
+}
+
+.titleInfo p {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.guide {
+    padding-right: 50px;
+}
+
 
 /*footer*/
 
 footer {
-    margin-top: calc(69% + 28px);
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
     box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
-    background-color: white;
-    padding-top: 15px;
+    background-color: rgb(142, 67, 146);
+    padding-top: 16px;
     padding-bottom: 8px;
     padding-right: 15px;
 }
 
 footer p {
-    color: rgb(142, 67, 146);
-    font-size: 16px;
+    color: white;
+    font-size: 17px;
     padding-bottom: 13px;
     font-family: monoton, cursive;
 }
