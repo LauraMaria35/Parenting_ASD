@@ -99,6 +99,18 @@ h6 a {
     padding-right: 20px;
 }
 
+#signUpBox1 {
+    box-shadow: 1px 1px 10px 2px rgb(177, 177, 177);
+    background-color: white;
+    height: 160px;
+    width: 360px;
+    border-radius: 8px;
+    margin: 0 auto;
+    border-style: outset;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #signUpBox a {
     text-decoration: none;
 }
@@ -163,4 +175,21 @@ footer p {
         font-size: 14px;
         padding-bottom: 8px;
     }
+}
+
+#email {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#submitButton {
+    margin-left: -4px;
+    padding: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    border-style: none;
 }
