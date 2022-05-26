@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-26 09:58:13
+/* Smarty version 3.1.31, created on 2022-05-26 11:09:13
   from "C:\wamp\www\Parenting_ASD\smarty\templates\logon.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_628f4f357a6835_86047085',
+  'unifunc' => 'content_628f5fd9dc9691_27857951',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d72c57ec4b939f190ef53e223ad056ad6475df' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\logon.tpl',
-      1 => 1653558990,
+      1 => 1653563349,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628f4f357a6835_86047085 (Smarty_Internal_Template $_smarty_tpl) {
+function content_628f5fd9dc9691_27857951 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -29,11 +29,13 @@ function content_628f4f357a6835_86047085 (Smarty_Internal_Template $_smarty_tpl)
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="../css/logon.css">
     <?php echo '<script'; ?>
  type="text/javascript" src="../js_lib/copyright.js"><?php echo '</script'; ?>
 >
     <title>Log on</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -46,16 +48,14 @@ function content_628f4f357a6835_86047085 (Smarty_Internal_Template $_smarty_tpl)
                 </div>
             </a>
         </div>
+       
+
         <br>
 
-        <br><br><br>
-
         <div id="signUpBox">
+        <br>
             <h3>Welcom back!</h3>
-            <br>
-
-            <p id=msg><?php echo $_smarty_tpl->tpl_vars['msg']->value;?>
-</p>
+<br>
             <form method=post action=<?php echo $_smarty_tpl->tpl_vars['action']->value;?>
 >
                 <label>Logon-id</label>
@@ -67,14 +67,10 @@ function content_628f4f357a6835_86047085 (Smarty_Internal_Template $_smarty_tpl)
                 <label>Permanent<br>(8 hours)</label>
 
                 <input type=checkbox name=persist>
-                <br><br>
+                <br>
                
-               <div class="input-prepend">
-   <span class="add-on"><i class="icon-user icon-white"></i></span>
-   <input type="submit" class="btn-primary" value="Login" >
-</div>
-                    
-                
+   <button type="submit" class="btn btn-secondary btn-block">Log in</button>
+
                 
                 <div class=clearfix></div>
                 <div id='forgot'>
@@ -101,6 +97,9 @@ function content_628f4f357a6835_86047085 (Smarty_Internal_Template $_smarty_tpl)
             </p>
         </footer>
     </div>
+    <?php echo '<script'; ?>
+ src="../bootstrap/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
 </body>
 
 </html><?php }

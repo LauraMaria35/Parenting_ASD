@@ -86,7 +86,7 @@ h6 a {
 #signUpBox {
     box-shadow: 1px 1px 10px 2px rgb(177, 177, 177);
     background-color: white;
-    height: 260px;
+    height: 340px;
     width: 360px;
     border-radius: 8px;
     margin: 0 auto;
@@ -136,8 +136,6 @@ input {
     margin-right: 0.5em;
 }
 
-.btn-primary {}
-
 #forgot {
     clear: both;
     margin-top: 5px;
@@ -183,4 +181,8 @@ footer p {
         font-size: 14px;
         padding-bottom: 8px;
     }
+}
+
+.btn btn-warning btn-block {
+    color: white;
 }

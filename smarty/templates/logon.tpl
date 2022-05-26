@@ -22,15 +22,14 @@
                 </div>
             </a>
         </div>
+       
+
         <br>
 
-        <br><br><br>
-
         <div id="signUpBox">
+        <br>
             <h3>Welcom back!</h3>
-            <br>
-
-            <p id=msg>{$msg}</p>
+<br>
             <form method=post action={$action}>
                 <label>Logon-id</label>
                 <input type=text name=logon>
@@ -41,14 +40,10 @@
                 <label>Permanent<br>(8 hours)</label>
 
                 <input type=checkbox name=persist>
-                <br><br>
+                <br>
                
-               <div class="input-prepend">
-   <span class="add-on"><i class="icon-user icon-white"></i></span>
-   <input type="submit" class="btn-primary" value="Login" >
-</div>
-                    
-                
+   <button type="submit" class="btn btn-secondary btn-block">Log in</button>
+
                 
                 <div class=clearfix></div>
                 <div id='forgot'>
