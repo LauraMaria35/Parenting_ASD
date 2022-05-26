@@ -132,16 +132,11 @@ label {
 }
 
 input {
-    float: left;
     margin-bottom: 0.5em;
     margin-right: 0.5em;
 }
 
-.submit {
-    clear: both;
-    margin-top: 2em;
-    margin-left: 15px;
-}
+.btn-primary {}
 
 #forgot {
     clear: both;

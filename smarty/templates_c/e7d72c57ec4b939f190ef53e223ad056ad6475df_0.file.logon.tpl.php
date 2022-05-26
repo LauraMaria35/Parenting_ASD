@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-26 06:53:13
+/* Smarty version 3.1.31, created on 2022-05-26 09:58:13
   from "C:\wamp\www\Parenting_ASD\smarty\templates\logon.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_628f23d9796185_65754509',
+  'unifunc' => 'content_628f4f357a6835_86047085',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d72c57ec4b939f190ef53e223ad056ad6475df' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\logon.tpl',
-      1 => 1653547987,
+      1 => 1653558990,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628f23d9796185_65754509 (Smarty_Internal_Template $_smarty_tpl) {
+function content_628f4f357a6835_86047085 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -68,7 +68,14 @@ function content_628f23d9796185_65754509 (Smarty_Internal_Template $_smarty_tpl)
 
                 <input type=checkbox name=persist>
                 <br><br>
-                <input type=submit name='submit' value=Verzenden class=submit>
+               
+               <div class="input-prepend">
+   <span class="add-on"><i class="icon-user icon-white"></i></span>
+   <input type="submit" class="btn-primary" value="Login" >
+</div>
+                    
+                
+                
                 <div class=clearfix></div>
                 <div id='forgot'>
                     <a href=../scripts/P_vergeten.php>Forgot your password?</a>

@@ -40,7 +40,14 @@
 
                 <input type=checkbox name=persist>
                 <br><br>
-                <input type=submit name='submit' value=Verzenden class=submit>
+               
+               <div class="input-prepend">
+   <span class="add-on"><i class="icon-user icon-white"></i></span>
+   <input type="submit" class="btn-primary" value="Login" >
+</div>
+                    
+                
+                
                 <div class=clearfix></div>
                 <div id='forgot'>
                     <a href=../scripts/P_vergeten.php>Forgot your password?</a>

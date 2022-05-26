@@ -12,3 +12,5 @@
                          WHERE d_user = 1' at line 3",/Applications/MAMP/htdocs/Parenting_ASD/scripts/A_logon.php,97
 "24-05-2022 08:07:35","SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)","C:\wamp\www\Parenting_ASD\connections\pdo.inc.php",26
 "25-05-2022 14:09:13","SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)","C:\wamp\www\Parenting_ASD\connections\pdo.inc.php",26
+"26-05-2022 08:11:17","SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_parentingasd.t_authentication' doesn't exist","C:\wamp\www\Parenting_ASD\scripts\A_logon.php",57
+"26-05-2022 08:13:19","SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_parentingasd.t_authentication' doesn't exist","C:\wamp\www\Parenting_ASD\scripts\A_logon.php",57
