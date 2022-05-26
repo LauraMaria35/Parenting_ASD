@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-24 19:00:36
+/* Smarty version 3.1.31, created on 2022-05-26 06:53:13
   from "C:\wamp\www\Parenting_ASD\smarty\templates\logon.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_628d2b540c5450_75011036',
+  'unifunc' => 'content_628f23d9796185_65754509',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d72c57ec4b939f190ef53e223ad056ad6475df' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\logon.tpl',
-      1 => 1653418818,
+      1 => 1653547987,
       2 => 'file',
     ),
   ),
@@ -20,17 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628d2b540c5450_75011036 (Smarty_Internal_Template $_smarty_tpl) {
+function content_628f23d9796185_65754509 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
 
 <head>
     <meta charset="UTF-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/logon.css">
     <?php echo '<script'; ?>
- src="../js_lib/copyright.js"><?php echo '</script'; ?>
+ type="text/javascript" src="../js_lib/copyright.js"><?php echo '</script'; ?>
 >
     <title>Log on</title>
 </head>
@@ -38,13 +39,15 @@ function content_628d2b540c5450_75011036 (Smarty_Internal_Template $_smarty_tpl)
 <body>
     <div id="container">
         <div class="title">
-            <div id="logo">
-                <img src="../images/logo.png" alt="logo">
-                <h1>parenting-asd</h1>
-            </div>
-            <br>
-
+            <a href="../index.php">
+                <div id="logo">
+                    <img src="../images/logo.png" alt="logo">
+                    <h1>parenting-asd</h1>
+                </div>
+            </a>
         </div>
+        <br>
+
         <br><br><br>
 
         <div id="signUpBox">
@@ -90,7 +93,8 @@ function content_628d2b540c5450_75011036 (Smarty_Internal_Template $_smarty_tpl)
 >
             </p>
         </footer>
+    </div>
+</body>
 
-</html>
-<?php }
+</html><?php }
 }

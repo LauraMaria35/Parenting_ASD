@@ -59,6 +59,7 @@ h3 a {
 }
 
 h4 {
+    font-size: 17px;
     color: rgb(142, 67, 146);
 }
 
@@ -151,13 +152,6 @@ footer p {
     font-size: 16px;
     padding-bottom: 13px;
     font-family: monoton;
-}
-
-@media (max-width:480px) {
-    footer p {
-        font-size: 14px;
-        padding-bottom: 8px;
-    }
 }
 
 #copyRight {

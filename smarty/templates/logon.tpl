@@ -3,24 +3,25 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/logon.css">
-    <script src="../js_lib/copyright.js"></script>
+    <script type="text/javascript" src="../js_lib/copyright.js"></script>
     <title>Log on</title>
 </head>
 
 <body>
     <div id="container">
         <div class="title">
-        <a href="../index.php">
-            <div id="logo">
-                <img src="../images/logo.png" alt="logo">
-                <h1>parenting-asd</h1>
-            </div>
+            <a href="../index.php">
+                <div id="logo">
+                    <img src="../images/logo.png" alt="logo">
+                    <h1>parenting-asd</h1>
+                </div>
             </a>
-            <br>
-
         </div>
+        <br>
+
         <br><br><br>
 
         <div id="signUpBox">
@@ -62,5 +63,7 @@
                 </script>
             </p>
         </footer>
+    </div>
+</body>
 
 </html>
