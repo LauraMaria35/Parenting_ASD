@@ -12,10 +12,12 @@
 <body>
     <div id="container">
         <div class="title">
+        <a href="../index.php">
             <div id="logo">
                 <img src="../images/logo.png" alt="logo">
                 <h1>parenting-asd</h1>
             </div>
+            </a>
             <br>
 
         </div>
