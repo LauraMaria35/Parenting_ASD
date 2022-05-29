@@ -14,3 +14,5 @@
 "25-05-2022 14:09:13","SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)","C:\wamp\www\Parenting_ASD\connections\pdo.inc.php",26
 "26-05-2022 08:11:17","SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_parentingasd.t_authentication' doesn't exist","C:\wamp\www\Parenting_ASD\scripts\A_logon.php",57
 "26-05-2022 08:13:19","SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_parentingasd.t_authentication' doesn't exist","C:\wamp\www\Parenting_ASD\scripts\A_logon.php",57
+"29-05-2022 14:55:00","Unable to load template 'file:about.tpl'","C:\wamp\www\Parenting_ASD\smarty\sysplugins\smarty_internal_template.php",185
+"29-05-2022 14:55:59","Unable to load template 'file:aboutGuideResources.tpl'","C:\wamp\www\Parenting_ASD\smarty\sysplugins\smarty_internal_template.php",185
