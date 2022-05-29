@@ -1,17 +1,13 @@
 <?php
 try{
-    require("../code/initialisatie.inc.php");
-
 //********** Input en verwerking
   require_once("../php_lib/inlezen.inc.php");
-// de inhoud van A_home_I zal in het "inhoud" veld  op het scherm komen
+// de inhoud van about.html zal in het "inhoud" veld  op het scherm komen
   $_inhoud = inlezen('about.html');
-
+  $_menu =  0;
   require("../code/output.inc.php"); 
-
-    require("../smarty/mySmarty.inc.php");
    
-    $_smarty->display('aboutGuideResources.tpl');
+ $_smarty->display('aboutGuideResources.tpl');
 
    
 }
