@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-26 12:03:03
+/* Smarty version 3.1.31, created on 2022-05-26 12:18:22
   from "C:\wamp\www\Parenting_ASD\smarty\templates\logon.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_628f6c77949927_75817304',
+  'unifunc' => 'content_628f700e131c41_56027101',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d72c57ec4b939f190ef53e223ad056ad6475df' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\logon.tpl',
-      1 => 1653566564,
+      1 => 1653567487,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628f6c77949927_75817304 (Smarty_Internal_Template $_smarty_tpl) {
+function content_628f700e131c41_56027101 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -31,7 +31,6 @@ function content_628f6c77949927_75817304 (Smarty_Internal_Template $_smarty_tpl)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/logon.css">
-
     <?php echo '<script'; ?>
  type="text/javascript" src="../js_lib/copyright.js"><?php echo '</script'; ?>
 >
@@ -90,7 +89,7 @@ function content_628f6c77949927_75817304 (Smarty_Internal_Template $_smarty_tpl)
             <div id="footerDiv"></div>
             <p id="copyRight">Laura Ciocalau |
                 <?php echo '<script'; ?>
- language="javascript ">
+ language="javascript">
                     document.write(copyRight(" | Web Developer "));
                 <?php echo '</script'; ?>
 >

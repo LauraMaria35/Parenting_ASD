@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/logon.css">
-
     <script type="text/javascript" src="../js_lib/copyright.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js "></script>
     <title>Log on</title>
@@ -59,7 +58,7 @@
         <footer>
             <div id="footerDiv"></div>
             <p id="copyRight">Laura Ciocalau |
-                <script language="javascript ">
+                <script language="javascript">
                     document.write(copyRight(" | Web Developer "));
                 </script>
             </p>
