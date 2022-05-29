@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-26 12:18:22
+/* Smarty version 3.1.31, created on 2022-05-29 18:24:29
   from "C:\wamp\www\Parenting_ASD\smarty\templates\logon.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_628f700e131c41_56027101',
+  'unifunc' => 'content_6293ba5d054b50_12908144',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d72c57ec4b939f190ef53e223ad056ad6475df' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\logon.tpl',
-      1 => 1653567487,
+      1 => 1653848649,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628f700e131c41_56027101 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6293ba5d054b50_12908144 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -36,6 +36,9 @@ function content_628f700e131c41_56027101 (Smarty_Internal_Template $_smarty_tpl)
 >
     <?php echo '<script'; ?>
  src="../bootstrap/js/bootstrap.min.js "><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"><?php echo '</script'; ?>
 >
     <title>Log on</title>
 

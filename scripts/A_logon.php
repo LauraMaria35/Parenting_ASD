@@ -52,7 +52,7 @@ try{
     $_persistent = isset($_POST['persist']); //true indien aangevinkt
 
     //***************** bestaat het logon ? **************
-    $_query = "SELECT * FROM t_authentication WHERE d_logon = '$_logon';"; 
+    $_query = "SELECT * FROM ts_authentication WHERE d_logon = '$_logon';"; 
 
     $_result = $_PDO->query($_query); 
 
@@ -89,7 +89,7 @@ try{
           $_msg="Foutief paswoord.(nog $_pogingen pogingen)";
         }	
 
-        $_query = "UPDATE t_authentication
+        $_query = "UPDATE ts_authentication
 								            SET d_faultCntr = $_faultCntr
 										              d_timeOut = $_timeOut
                          WHERE d_user = $_user;";
@@ -109,7 +109,7 @@ try{
         // timeout nog niet afgelopen -_> verleng time-out      
         $_timeOut = time()+(60*60*3);
 
-        $_query ="UPDATE t_authentication
+        $_query ="UPDATE ts_authentication
 								           SET d_timeOut = '$_timeOut'
 								               WHERE d_user = $_user;";
 
@@ -143,7 +143,7 @@ try{
       $_expire = 0;
       $_action = "Ingelogd";
     }
-    $_query="UPDATE t_authentication
+    $_query="UPDATE ts_authentication
 								SET d_faultCntr = '0',
 										d_timeOut = '0',
                     d_token = '$_token',
