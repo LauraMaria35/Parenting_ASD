@@ -121,6 +121,24 @@ main {
     color: rgb(109, 42, 113);
 }
 
+ul {
+    padding-left: 40px;
+}
+
+#title {
+    text-align: center;
+}
+
+main h3 a {
+    color: rgb(109, 42, 113);
+}
+
+main h3 a:hover {
+    background-color: rgb(142, 67, 146);
+    color: white;
+    text-decoration: none;
+}
+
 
 /*footer*/
 
@@ -153,12 +171,4 @@ footer p {
         font-size: 14px;
         padding-bottom: 8px;
     }
-}
-
-ul {
-    padding-left: 40px;
-}
-
-#title {
-    text-align: center;
 }
