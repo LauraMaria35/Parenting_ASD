@@ -25,12 +25,13 @@ try {
 
 		// verstuur formulier om e-mail in te geven  
 
-		$_inhoud = "<h2>Geef je e-mail</h2>
+		$_inhoud = "<h2>Enter your email</h2>
                 <form action='$_srv' method='post'>
-                  <label>e-mail</label>
+                  <label>E-mail</label>
                     <input type='mail'  name= 'mail'
                       placeholder= 'e-mail' >
-                    <input type='submit' name='submit'>
+					  <br>
+					  <input type="submit" class="btn btn-secondary btn-block">Send
                 </form>
                 <br><br><br>";   
 	}
@@ -70,21 +71,21 @@ try {
 			
 			$_result = $_PDO -> query("$_query"); 
 			// email content   
-			$_content = "voor password reset <a href =http://$_domain/scripts/P_reset.php?k=$_resetKey> klik hier </a>";
+			$_content = "For password reset <a href =http://$_domain/scripts/P_reset.php?k=$_resetKey> klik here </a>";
 			
 			sendMail($_mail,"Password Reset",$_content);
 			
 			// boodschap naar de gebruiker   
 			$_inhoud = "<br><br><br>
-                <h2>U kreeg een e-mail met verdere instructies</h2>
+                <h2>You received an email with further instructions</h2>
                 <br><br><br>";   
 		}
 		else    
 		{
 			$_inhoud = "<br><br><br>
-                <h2>e-mail onbekend</h2>
+                <h2>Unknown e-mail</h2>
                 <br><br><br>
-								<a href=$_srv>Probeer opnieuw</a>"; 
+								<a href=$_srv>Try again</a>"; 
 		}
 	}
 /*******************************************

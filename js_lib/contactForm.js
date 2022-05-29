@@ -29,47 +29,34 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * let op; deze functie werkt enkel met de gegeven id's.
  * Deze functie werkt samen met "clearUsermsg()"
  */
-function contactForm() 
-{
+function contactForm() {
 
-	if (document.getElementById('naam').value == "") 
-	{
-		document.getElementById('userMSG').innerHTML = '<h4>Gelieve je naam in te vullen</h4>';
-	} 
-	
-	else if (document.getElementById('mail').value == "") 
-	{
-		document.getElementById('userMSG').innerHTML = '<h4>Gelieve je email in te vullen</h4>';
-	} 
-	
-	else if (document.getElementById('opm').value == "") 
-	{
-		document.getElementById('userMSG').innerHTML = '<h4>Heb je geen vraag of opmerking</h4>';
-	} 
-	
-	else 
-	{
-	
-    
-    
-		var boodschap = "Boodschap via de website" + "<br>" + "van -->" + document.getElementById('naam').value + "<br>" + "mail -->" + document.getElementById('mail').value + "<br>" + "inhoud-->" + document.getElementById('opm').innerHTML;
+    if (document.getElementById('naam').value == "") {
+        document.getElementById('userMSG').innerHTML = '<h4>Please fill in your name</h4>';
+    } else if (document.getElementById('mail').value == "") {
+        document.getElementById('userMSG').innerHTML = '<h4>Please enter your email</h4>';
+    } else if (document.getElementById('opm').value == "") {
+        document.getElementById('userMSG').innerHTML = '<h4>Do you have any question or comment?</h4>';
+    } else {
 
-		xmlhttp = new XMLHttpRequest();
 
-		xmlhttp.onreadystatechange = function () 
-		{
-			
-			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) 
-			{
-				document.getElementById('userMSG').innerHTML = '<h3>We hebben jouw vraag goed ontvangen !</h3>';
-				document.getElementById('naam').value = "";
-				document.getElementById('mail').value = "";
-				document.getElementById('opm').value = "";
-			}
-		}	
 
-			xmlhttp.open("GET", "phpmail.php?b=" + boodschap, true);
-			xmlhttp.send();
-		
-	}
+        var boodschap = "Message via the website" + "<br>" + "of -->" + document.getElementById('naam').value + "<br>" + "mail -->" + document.getElementById('mail').value + "<br>" + "inhoud-->" + document.getElementById('opm').innerHTML;
+
+        xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.onreadystatechange = function() {
+
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById('userMSG').innerHTML = '<h3>We have received your question!</h3>';
+                document.getElementById('naam').value = "";
+                document.getElementById('mail').value = "";
+                document.getElementById('opm').value = "";
+            }
+        }
+
+        xmlhttp.open("GET", "phpmail.php?b=" + boodschap, true);
+        xmlhttp.send();
+
+    }
 }
