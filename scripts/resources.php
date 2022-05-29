@@ -1,7 +1,7 @@
 <?php
 try{
 
-    echo file_get_contents("../content/about.html"); 
+    echo file_get_contents("../content/resources.html"); 
 
 }
 
