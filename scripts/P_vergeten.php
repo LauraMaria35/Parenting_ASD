@@ -31,7 +31,7 @@ try {
                     <input type='mail'  name= 'mail'
                       placeholder= 'e-mail' >
 					  <br>
-					  <input type="submit" class="btn btn-secondary btn-block">Send
+					  <input type='submit' name='submit'>Send
                 </form>
                 <br><br><br>";   
 	}
