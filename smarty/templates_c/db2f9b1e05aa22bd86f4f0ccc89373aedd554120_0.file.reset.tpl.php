@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-26 11:09:42
+/* Smarty version 3.1.31, created on 2022-05-29 19:55:32
   from "C:\wamp\www\Parenting_ASD\smarty\templates\reset.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_628f5ff61326e7_52736323',
+  'unifunc' => 'content_6293cfb4464131_20872202',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'db2f9b1e05aa22bd86f4f0ccc89373aedd554120' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\reset.tpl',
-      1 => 1653058601,
+      1 => 1653854125,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628f5ff61326e7_52736323 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6293cfb4464131_20872202 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -41,7 +41,7 @@ function content_628f5ff61326e7_52736323 (Smarty_Internal_Template $_smarty_tpl)
 <div id="mainbox">
 	<header>
 		<img src="../images/webontwikkeling.jpeg"  height="100%" alt="webontwikkeling"/>
-		<p>Web-ontwikkeling</p>
+		<p>Test</p>
 	</header>
 	
   

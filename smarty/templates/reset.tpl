@@ -13,7 +13,7 @@
 <div id="mainbox">
 	<header>
 		<img src="../images/webontwikkeling.jpeg"  height="100%" alt="webontwikkeling"/>
-		<p>Web-ontwikkeling</p>
+		<p>Test</p>
 	</header>
 	
   

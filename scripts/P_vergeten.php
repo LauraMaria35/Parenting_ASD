@@ -92,10 +92,11 @@ try {
 ********************************************/  
 	//$_smarty instantieren en initialiseren  
 	require_once("../smarty/mySmarty.inc.php");
-
+	
 	$_smarty->assign('inhoud',$_inhoud);
 	// display it
 	$_smarty->display('reset.tpl');
+	
 
 }
 
