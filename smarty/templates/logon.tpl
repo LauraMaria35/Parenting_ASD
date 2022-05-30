@@ -41,7 +41,7 @@
                 <label>Permanent<br>(8 hours)</label>
                 <input type="checkbox" name="persist">
                 <br>
-                <button type="submit" class="btn btn-secondary btn-block">Log in</button>
+                <input type="submit" name="submit" value="Log in" id="logInButton">
 
                 <div id="forgot">
                 <br>

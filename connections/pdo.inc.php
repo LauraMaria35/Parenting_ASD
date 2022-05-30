@@ -21,7 +21,7 @@ else
 	$_database = "db_parentingASD";
 	
 	// andere project afhangkelijke waarden
-	$_domain = "lauraciocalau.com";
+	$_domain = "http://localhost/Parenting_ASD/";
 }
 $_PDO = new PDO("mysql:host=$_hostname; dbname=$_database","$_username", "$_password");
 

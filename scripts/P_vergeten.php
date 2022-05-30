@@ -25,13 +25,17 @@ try {
 
 		// verstuur formulier om e-mail in te geven  
 
-		$_inhoud = "<h2>Enter your email</h2>
+		$_inhoud = "<h2>Forgot your password?</h2>
+		<h4>Parenting-ASD will send you password reset instructions to the email associated with your account.</h4>
+		<br>
+		<h4>Please enter your email address</h4>
                 <form action='$_srv' method='post'>
                   <label>E-mail</label>
                     <input type='mail'  name= 'mail'
                       placeholder= 'e-mail' >
 					  <br>
-					  <input type='submit' name='submit'>Send
+					  <br>
+					  <button type='submit' class='btn btn-secondary btn-block' name='submit'>Send</button>
                 </form>
                 <br><br><br>";   
 	}

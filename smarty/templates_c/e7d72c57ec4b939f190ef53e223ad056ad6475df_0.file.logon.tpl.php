@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2022-05-29 18:24:29
+/* Smarty version 3.1.31, created on 2022-05-30 18:20:08
   from "C:\wamp\www\Parenting_ASD\smarty\templates\logon.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_6293ba5d054b50_12908144',
+  'unifunc' => 'content_62950ad8117d56_15584770',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e7d72c57ec4b939f190ef53e223ad056ad6475df' => 
     array (
       0 => 'C:\\wamp\\www\\Parenting_ASD\\smarty\\templates\\logon.tpl',
-      1 => 1653848649,
+      1 => 1653934786,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6293ba5d054b50_12908144 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62950ad8117d56_15584770 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html>
@@ -73,7 +73,7 @@ function content_6293ba5d054b50_12908144 (Smarty_Internal_Template $_smarty_tpl)
                 <label>Permanent<br>(8 hours)</label>
                 <input type="checkbox" name="persist">
                 <br>
-                <button type="submit" class="btn btn-secondary btn-block">Log in</button>
+                <input type="submit" name="submit" value="Log in" id="logInButton">
 
                 <div id="forgot">
                 <br>

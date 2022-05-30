@@ -46,7 +46,7 @@ function persistentLogon()
             // kijk nu of deze ook in de database aanwezig zijn
 
             $_query = "SELECT d_user, d_rol, d_logon
-											FROM t_authentication
+											FROM ts_authentication
 		 												WHERE (d_token = '$_token'
 		      										 AND d_identifier = '$_identifier'
 															 AND d_expire > $_time)";
