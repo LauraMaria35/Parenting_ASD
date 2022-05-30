@@ -14,39 +14,39 @@ img {
     text-align: center;
 }
 
-.title {
-    width: 500px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
-
-.title a {
-    text-decoration: none;
-}
-
-#logo img {
-    margin-left: 207px;
-}
-
 #titleNav {
+    width: 960px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin: 0 auto;
+}
+
+#logo img {
+    padding: 5px;
+}
+
+nav {
+    padding-top: 5px;
 }
 
 nav ul {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    list-style: none;
 }
 
-ul li {
-    margin: 10px;
+nav ul li {
+    margin: 8px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 7px;
+    border-style: inset;
+    border-width: 2px;
 }
 
-ul li a {
-    padding: 30px;
-    background-color: blue;
+nav ul li a {
     text-decoration: none;
 }
 
