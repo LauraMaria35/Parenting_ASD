@@ -92,3 +92,14 @@ label {
     font-size: 28px;
     color: rgb(144, 115, 121);
 }
+
+form p {
+    text-align: left;
+    color: rgb(142, 67, 146);
+    font-size: 17px;
+}
+
+select {
+    width: 400px;
+    padding: 5px;
+}

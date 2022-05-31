@@ -29,9 +29,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  
  * @return [string]                [copyright string]
  */
-function copyRight(owner)
-{
-     var nu = new Date();
-	   copyright_string = "&copy;" + nu.getFullYear() + " "+owner;		 
-	   return(copyright_string);
+function copyRight(owner) {
+    var nu = new Date();
+    copyright_string = "&copy;" + nu.getFullYear() + " " + owner;
+    return (copyright_string);
 }

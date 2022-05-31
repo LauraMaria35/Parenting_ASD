@@ -25,27 +25,38 @@
         <br><br><br>
 
         <h2 id="welkom">Welkom {$naam}</h2>
-        <h3>Just a few more details before you get started:</h3>
+        <h4>Just a few more details before you get started:</h4>
         <br><br>
         <form action="$_srv" method="post" id="signUpForm">
-            <select id=soortSchoen onchange=kiezenSoort()><option value=soort>Soort:</option><option value=veterschoenen>Veterschoenen</option><option value=schoenenMetGesp>Schoenen met gesp</option><option value=instapschoenen>Instapschoenen</option></select>
-            <label for="firstName"><b>First name</b></label>
-            <input type="text" placeholder="Enter your first name" name="firstName" required>
-            <br>
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
-            <br>
-            <label for="paswoord"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="paswoord" required>
-            <br>
-            <label for="psw-repeat"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-            <br>
-
+            <p>Who are you</p>
+            <select id=aboutYou onchange=kiezenSoort1()>
+                <option value=about>About you</option>
+                <option value=mom>Mom</option>
+                <option value=dad>Dad</option>
+                <option value=grandparent>Grandparent</option>
+                <option value=caregiver>Caregiver</option>
+            </select>
+            <br><br>
+            <p>Year of diagnosis</p>
+            <select id=diagnosis onchange=kiezenSoort2()>
+                <option value=year>Year of diagnosis</option>
+            </select>
+            <br><br>
+            <p>Your location</p>
+            <select id=birthYear onchange=kiezenSoort3()>
+                <option value=year>Write location</option>
+            </select>
+            <br><br>
+            <p>Your birth year</p>
+            <select id=birthYear onchange=kiezenSoort4()>
+            <option value=year>Select year</option>
+            </select>
+            <br><br>
+            <input type="checkbox" name="accord" id="accord"> Yes, I am 18 years of age or older, and I agree to the Terms of Use, Privacy Policy, Cookie Policy
+            <br><br>
             <div class="clearfix">
-                <button type="button" class="next">Next</button>
+                <button type="button" class="next" onclick="nextLogIn()">Finish</button>
             </div>
-
         </form>
 
 
@@ -59,7 +70,11 @@
         </footer>
 
     </div>
-
+    <script>
+        function nextLogIn() {
+            window.open("../scripts/A_logon.php");
+        }
+    </script>
 </body>
 
 </html>
