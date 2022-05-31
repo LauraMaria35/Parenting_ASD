@@ -188,8 +188,8 @@ footer p {
 }
 
 #logInButton {
-    display: box;
     width: 300px;
     background-color: rgb(127, 126, 126);
     color: white;
+    border-color: white;
 }

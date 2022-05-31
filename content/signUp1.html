@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signUp.css">
+    <script type="text/javascript" src="../js_lib/copyright.js"></script>
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="title">
+            <a href="../index.php">
+                <div id="logo">
+                    <img src="../images/logo.png" alt="logo">
+                    <h1>parenting-asd</h1>
+                </div>
+            </a>
+
+        </div>
+        <br><br><br>
+
+        <h2>Thank you! Please complete your registration below.</h2>
+        <br><br>
+        <form action="$_srv" method="post" id="signUpForm">
+
+            <label for="firstName"><b>First name</b></label>
+            <br>
+            <input type="text" placeholder="Enter your first name" name="firstName" required>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <br>
+            <label for="paswoord"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Enter Password" name="paswoord" required>
+            <br>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <br>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+            <br>
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+
+        </form>
+
+
+        <footer>
+            <p></p>
+            <p id="copyRight">Laura Ciocalau |
+                <script language="javascript">
+                    document.write(copyRight(" | Web Developer"));
+                </script>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

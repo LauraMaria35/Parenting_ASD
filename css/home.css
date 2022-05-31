@@ -14,6 +14,10 @@ img {
     text-align: center;
 }
 
+header {
+    box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
+}
+
 #titleNav {
     width: 960px;
     display: flex;
@@ -50,6 +54,64 @@ nav ul li a {
     text-decoration: none;
 }
 
+main {
+    position: relative;
+    height: fit-content;
+}
+
+#section1 {
+    max-width: 960px;
+    height: 200px;
+    background-color: #cccccc;
+    margin: 0 auto;
+}
+
+form {
+    position: relative;
+    width: 606px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#postButton {
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    border-color: white;
+    border-style: ridge;
+    position: absolute;
+    right: 0;
+}
+
+#postContent {
+    border-color: rgb(255, 94, 0);
+}
+
+form a {
+    color: rgb(255, 94, 0);
+    position: absolute;
+    left: 0;
+    top: 130px;
+    text-decoration: none;
+}
+
+form a img {
+    display: inline;
+}
+
+#section2 {
+    position: absolute;
+    right: 0;
+    width: 240px;
+    height: 200px;
+    top: 0px;
+    box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -81,8 +143,4 @@ footer p {
         font-size: 14px;
         padding-bottom: 8px;
     }
-}
-
-header {
-    box-shadow: 2px 2px 12px 0px rgb(127, 126, 126);
 }
