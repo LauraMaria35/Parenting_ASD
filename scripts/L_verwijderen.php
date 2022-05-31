@@ -14,7 +14,7 @@ try
     // toon 1ste formulier formulier --> selectie formulier
 
     $_start=0; // start waarde voor drop-downs
-    $_inhoud ="<h1>Verwijderen</h1>";
+    $_inhoud ="<h1>Remove</h1>";
     require("../code/selectionForm.inc.php"); 
   }
   else if (isset($_POST["submit"])) // inhoud selectie formulier verwerken
@@ -79,7 +79,7 @@ try
   // menu initialiseren  
   $_menu =  1;
   // linkse commentaar veld  
-  $_commentaar = 'L_verwijderen_C.html';
+  $_commentaar = 'L_remove_C.html';
 
   require("../code/output.inc.php");
 }

@@ -47,7 +47,7 @@ try
   // menu initialiseren  
   $_menu =  1;
   // linkse commentaar veld  
-  $_commentaar = 'L_aanpassen_C.html';
+  $_commentaar = 'L_customize_C.html';
 
   require("../code/output.inc.php");
 }

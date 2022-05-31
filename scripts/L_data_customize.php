@@ -111,7 +111,7 @@ try
 	// menu initialiseren  
 	$_menu =  1;
 	// linkse commentaar veld  
-	$_commentaar = 'L_data_aanpassen_C.html';
+	$_commentaar = 'L_data_customize_C.html';
 
 	require("../code/output.inc.php");  
 }
