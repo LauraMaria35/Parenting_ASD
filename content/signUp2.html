@@ -24,10 +24,11 @@
         </div>
         <br><br><br>
 
-        <h2>Thank you! Please complete your registration below.</h2>
+        <h2 id="welkom">Welkom {$naam}</h2>
+        <h3>Just a few more details before you get started:</h3>
         <br><br>
         <form action="$_srv" method="post" id="signUpForm">
-
+            <select id=soortSchoen onchange=kiezenSoort()><option value=soort>Soort:</option><option value=veterschoenen>Veterschoenen</option><option value=schoenenMetGesp>Schoenen met gesp</option><option value=instapschoenen>Instapschoenen</option></select>
             <label for="firstName"><b>First name</b></label>
             <input type="text" placeholder="Enter your first name" name="firstName" required>
             <br>
