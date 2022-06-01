@@ -73,7 +73,7 @@ try{
       $_user = $_row['d_user'];
 
       //***************** is het paswoord correct ? **************	
-      if ($_paswoord != $_row['d_paswoord']) 
+      if ($_paswoord != $_row['d_password']) 
       {
         $_faultCntr = $_row['d_faultCntr'] + 1; // foutteller incrementeren
 
@@ -157,7 +157,7 @@ try{
     logSecurityInfo($_logon,$_action);
 
     // Alles OK --> ga verder
-    header('Location:../scripts/A_home.php');	
+    header('Location:../scripts/L_home.php');	
 
     //beëindig script;
     exit;
