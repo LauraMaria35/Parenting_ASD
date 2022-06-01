@@ -27,3 +27,5 @@
                          WHERE d_user = 26' at line 3","C:\wamp\www\Parenting_ASD\scripts\A_logon.php",97
 "01-06-2022 00:35:45","SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd_timeOut = 0
                          WHERE d_user = 26' at line 3","C:\wamp\www\Parenting_ASD\scripts\A_logon.php",97
+"01-06-2022 07:30:58","SQLSTATE[42S22]: Column not found: 1054 Unknown column 'd_rol' in 'field list'","C:\wamp\www\Parenting_ASD\php_lib\persistentLogon.inc.php",54
+"01-06-2022 07:31:59","SQLSTATE[42S22]: Column not found: 1054 Unknown column 'd_rol' in 'field list'","C:\wamp\www\Parenting_ASD\php_lib\persistentLogon.inc.php",54

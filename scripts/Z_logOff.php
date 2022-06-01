@@ -7,7 +7,7 @@ try
 	{
 		$_inhoud= "<div id='logoff'>
                <form  method='post' action='$_srv'>
-                <label>Vergeet mij </label>
+                <label>Forget about me</label>
                 <input type='checkbox' name='persist' />
                 <br><br>
                 <input type='submit' name='submit' value='Tot ziens'/>
@@ -27,11 +27,11 @@ try
                         d_expire= 0
                      WHERE d_user ='".$_SESSION['user_id']."'";
 			$_PDO->query($_query);
-			$_action=" Persistent uitgelogd";
+			$_action=" Persistently logged out";
 		}
 		else
 		{
-			$_action=" Uitgelogd";
+			$_action=" Logged out";
 		}
 		
 		require_once('../php_lib/logSecurityInfo.inc.php');
@@ -39,11 +39,11 @@ try
 		logSecurityInfo($_SESSION['logon'], $_action);
 	
 		session_destroy(); // vernietig de sessie
-		header('Location:../totZiens/totZiens.html'); // keer terug naar de logon-pagina
+		header('Location:../goodBye/goodBye.html'); // keer terug naar de logon-pagina
 		exit;
 	}
 
-	$_commentaar = "Z_uitloggen_C.html";
+	$_commentaar = "Z_loggedOut_C.html";
 	$_menu = 0;
 
 	require("../code/output.inc.php");

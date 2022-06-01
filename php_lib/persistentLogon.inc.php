@@ -45,7 +45,7 @@ function persistentLogon()
             // token en identifier correct aanwezig
             // kijk nu of deze ook in de database aanwezig zijn
 
-            $_query = "SELECT d_user, d_rol, d_logon
+            $_query = "SELECT d_user, d_rolID, d_logon
 											FROM ts_authentication
 		 												WHERE (d_token = '$_token'
 		      										 AND d_identifier = '$_identifier'
@@ -64,7 +64,7 @@ function persistentLogon()
                     // m.a.w. cookie nog niet afgelopen
 
                     $_SESSION['user_id']       = $_row['d_user'];
-                    $_SESSION['rol']           = $_row['d_rol'];
+                    $_SESSION['rol']           = $_row['d_rolId'];
                     $_SESSION['authenticated'] = true;
                     $_SESSION['logon']         = $_row['d_logon'];
 
